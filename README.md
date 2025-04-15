@@ -33,3 +33,12 @@ cd the_ship
 
 # Build and start the containers
 docker-compose up --build
+
+#test the application
+✅ You should see the content from httpforever.com returned in your terminal.
+
+# macOS / Linux
+curl -x http://localhost:8080 http://httpforever.com/
+
+# Windows (Command Prompt / PowerShell)
+curl.exe -x http://localhost:8080 http://httpforever.com/
