@@ -14,7 +14,7 @@ import java.util.concurrent.locks.ReentrantLock;
 @RestController
 @RequestMapping("/")
 public class ShipProxyController {
-    private static final String OFFSHORE_PROXY_HOST = "localhost"; // Must be a valid hostname or IP
+    private static final String OFFSHORE_PROXY_HOST = "offshore-proxy"; // Must be a valid hostname or IP
     private static final int OFFSHORE_PROXY_PORT = 9090; // Offshore Proxy's port
     private final Lock lock = new ReentrantLock(); // Ensure sequential processing
 
