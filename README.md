@@ -28,8 +28,8 @@ This project consists of:
 
 ```bash
 # Clone the project
-git clone https://github.com/<your-username>/ship-proxy.git
-cd ship-proxy
+git clone https://github.com/niyascode007/the_ship.git
+cd the_ship
 
 # Build and start the containers
 docker-compose up --build
